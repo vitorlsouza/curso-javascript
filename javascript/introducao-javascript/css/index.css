@@ -137,14 +137,21 @@ button[disabled=disabled], button:disabled {
 	background-color: lightcoral;
 }
 
-.paciente-abaixo-peso{
-	background-color: lightblue;
+#mensagens-erro{
+	color: red;
 }
 
-.paciente-normal-peso{
-	background-color: lightgreen;
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
 }
 
-.paciente-acima-peso{
-	background-color: red;
+#filtra-paciente{
+	width: 200px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.invisivel{
+	display: none;
 }
